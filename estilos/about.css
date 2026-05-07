@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+.body {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+.imggg{
+    margin-left: 5rem;
+    border-radius: 10%;
+    width: 3%;
+}
+@media (max-width: 1200px) {
+    .conteudo__principal{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 0 0 !important;
+        padding: 0%;
+    }
+    .apresentacao__conteudo {
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        text-align: center;
+    }
+    .links__buttons{
+        display: flex;
+        padding: 2% -2%;
+    }
+    .imgg{
+        width: 40%;
+        margin-left: 0%;
+        margin-bottom: 5%;
+    }
+    .cabecalho {
+        justify-content: center;
+        align-items: center;
+        padding-right: 20%;
+    }
+    .navegacao{
+        justify-content: center;
+        align-items: center;
+    }
+    .apresentacao {
+        justify-content: center;
+    }
+.sobremin{
+    text-size-adjust: 60%;
+}
+}
