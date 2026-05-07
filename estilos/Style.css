@@ -118,6 +118,7 @@ body {
 .sobremin {
     display: flex;
     padding: 1.25rem 0;
+    text-align: justify;
 }
 
 .links__buttons {
